@@ -27,3 +27,9 @@ ul{
     margin-bottom: 200px;
     margin-top: 200px;
 }
+.home-location{
+    display: block;
+    background-color: green;
+    flex-direction: column;
+    width: 30%;
+}
