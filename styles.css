@@ -1,0 +1,23 @@
+body{
+    background-color: blue;
+}
+
+.nav p{
+    margin: 1px;
+}
+nav{
+    justify-content: space-between;
+    
+}
+ul{
+    display: flex;
+    margin-top: 1px;
+    float: right;
+
+}
+.nav ul li{
+    display: inline;
+    display: flex;
+    list-style: none;
+    padding-left: 2px;
+}
