@@ -27,9 +27,22 @@ ul{
     margin-bottom: 200px;
     margin-top: 200px;
 }
+img{
+    border-radius: 50%;
+}
 .home-location{
     display: block;
     background-color: green;
     flex-direction: column;
     width: 30%;
+}
+#home-direction{
+    display: flex;
+    
+}
+#phone-contact{
+    display: flex;
+}
+#mail-contact{
+    display: flex;
 }
