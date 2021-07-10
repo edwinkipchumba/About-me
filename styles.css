@@ -35,14 +35,28 @@ img{
     background-color: green;
     flex-direction: column;
     width: 30%;
+    justify-content: space-between;
 }
 #home-direction{
     display: flex;
-    
+    text-align: center;
 }
 #phone-contact{
     display: flex;
+    text-align: center;
+
 }
 #mail-contact{
     display: flex;
+    text-align: center;
+}
+
+
+
+.footer-header{
+    background-color: darkgoldenrod;
+}
+/*--media query--*/
+@media screen and (min-width: 480px) and (max-width: 767) {
+    
 }
