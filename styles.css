@@ -21,6 +21,8 @@ ul{
     display: flex;
     list-style: none;
     padding-left: 2px;
+    padding: 20px;
+    padding-left: 200px;
 }
 #about-me_section{
     width: 50%;
@@ -126,13 +128,8 @@ padding-right: 50px 50px;
     display: flex;
     text-align: center;
 }
-#phone-contact{
-    display: flex;
-    text-align: center;
-
-}
-#mail-contact{
-    display: flex;
+.availability{
+    background-color: grey;
     text-align: center;
 }
 
@@ -142,7 +139,7 @@ padding-right: 50px 50px;
     background-color: black;
     color: whitesmoke;
 }
-ul li{
+.social ul li{
     list-style: none;
     float: right;
     align-items: center;
