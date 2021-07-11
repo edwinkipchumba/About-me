@@ -153,6 +153,11 @@ hr{
     display: flex;
     justify-content: space-between;
 }
+.me-to{
+    text-align: center;
+    margin-left: 200px;
+}
+
 .links{
     text-align: center;
 }
