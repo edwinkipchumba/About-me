@@ -149,6 +149,9 @@ hr{
     color: white;
      width: auto;
 }
+.links{
+    text-align: center;
+}
 #copyright{
     text-align: center;
     margin-left:200px ;
