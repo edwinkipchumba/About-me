@@ -152,6 +152,9 @@ hr{
 .links{
     text-align: center;
 }
+.page-contact-me{
+    display: flex;
+}
 #copyright{
     text-align: center;
     margin-left:200px ;
