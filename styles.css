@@ -1,4 +1,4 @@
-#home-section{
+#Home{
     background-color: burlywood;
     
 }
@@ -8,20 +8,20 @@
 }
 nav{
     justify-content: space-between;
-    
+    padding: auto;
 }
 ul{
     display: flex;
     margin-top: 1px;
     text-align: center;
      font-size: 24px;
+     padding: 5px;
 }
 .nav ul li{
     display: inline;
     display: flex;
     list-style: none;
-    padding-left: 2px;
-    padding: 20px;
+    padding: 5px;
     padding-left: 200px;
 }
 #about-me_section{
@@ -30,8 +30,14 @@ ul{
     color: white;
     margin: 30px 30px;
 }
+.list-projects{
+    text-align: center;
+    align-content: center;
+}
 .skills{
-    display: flex;
+    text-align: none;
+    align-content: center;
+    
 }
 .img{
     text-align: center;
@@ -107,6 +113,16 @@ padding-right: 50px 50px;
     padding:20px 20px ;
     margin-left: 20px;
 }
+#block-education{
+    margin-top: 40px;
+    text-align: center;
+    align-content: center;
+}
+#block-experience{
+    text-align: center;
+    align-content: center;
+    margin-left: 200px;
+}
 .hobbies{
     border: 2px solid blue;
     background-color: yellow;
@@ -149,12 +165,19 @@ hr{
     color: white;
      width: auto;
 }
+.page-contact-me{
+    display: flex;
+    justify-content: space-between;
+}
+.me-to{
+    text-align: center;
+    margin-left: 200px;
+}
+
 .links{
     text-align: center;
 }
-.page-contact-me{
-    display: flex;
-}
+
 #copyright{
     text-align: center;
     margin-left:200px ;
